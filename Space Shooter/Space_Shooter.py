@@ -51,8 +51,10 @@ def main_menu():
             pygame.quit()
             sys.exit()
         else:
-            text = font.render("Press Enter to start",True,RED)
-            windowSurface.blit(text, [400, 300])
+            windowSurface.blit(font.render("Press Enter to start",True,RED), [400, 300])
+            windowSurface.blit(font.render("Space to fire ",True,RED), [400, 350])
+            windowSurface.blit(font.render("A,D to turn ",True,RED), [400, 400])
+            windowSurface.blit(font.render("dpad to move ",True,RED), [400, 450])
             
             pygame.display.update()
     return False
