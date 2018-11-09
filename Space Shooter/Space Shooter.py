@@ -1,6 +1,6 @@
 # Space Shooter game by Darren Ytsma
 
-import pygame, sys , math , random , pygame_functions
+import pygame, sys , math , random 
 
 
 ###############################
